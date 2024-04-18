@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+html{
+    font-family: "DM Sans", sans-serif;
+
+}
+
+body{
+    margin: 0px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    background-color: #101115;
+    box-shadow: #000000ad 0px 5px 10px;
+    color: aliceblue;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logoSenai{
+    width: 10%;
+    margin-left: 5%;
+    
+}
+
+.btnLogin{
+    text-decoration: none;
+    color: white;
+    font-size: 115%;
+    text-transform: uppercase;
+    margin-right: 5%;
+}
+
+header a:hover{
+    color: #ff0000;
+}
+
+
+#secInput{
+    width: 100%;
+    height: 500px;
+    background-image: url(img/Blue\ Modern\ Photo\ Technology\ YouTube\ Banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: #000 0px 0px 15px;
+}
+
+#fundoLogin{
+    height: 80%;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.684);
+    border-radius: 40px;
+    border: white 0.5px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around
+}
+
+#fundoLogin h1{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+}
+
+
+#Div1Input{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    align-items: center;
+    margin-top: -10%;
+    font-size: large;
+}
+
+#Div1Input button{
+    width: 14%;
+    margin-top: 4%;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+
+#Div1Input input{
+    margin-top: 2%;
+    border-radius: 5px;
+    width: 50%;
+    height: 25px;
+    border: none;
+}
+
+.iconeRedes:hover{
+    height: 80%;
+}
+
+#Div1Input label{
+    color: white;
+}
+
+#Div2Input{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.iconeRedes{
+    width: 45px;
+}
+
+#secInformacoes{
+    margin-top: 2%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#secInformacoes p{
+    text-align: center;
+    width: 65%;
+}
+
+#secInformacoes h1{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#secInformacoes img{
+    width: 30%;
+}
+
+#secCamiseta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4%;
+}
+
+#txtCamiseta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    text-align: center;
+
+}
+
+#secCamiseta h1{
+    text-transform: uppercase;
+    font-weight: 900;
+}
